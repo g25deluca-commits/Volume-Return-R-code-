@@ -1,3 +1,4 @@
+# This file was created by Giovanni De Luca and Andrea Montanino  
 # Downloading the Litecoin data from Yahoo Finance for a specific period
 litecoin = getSymbols("LTC-USD", from= "2018-01-01", to="2025-04-30", src="yahoo", auto.assign = FALSE)
 
@@ -140,3 +141,4 @@ lambda_uu = fit_Mix_cop_pobs@estimate[3]*BiCopPar2TailDep(6,fit_Mix_cop_pobs@est
 round(lambda_uu,3)
 lambda_lu = fit_Mix_cop_pobs@estimate[4]*BiCopPar2TailDep(6,fit_Mix_cop_pobs@estimate[2])$upper
 round(lambda_lu,3)
+
