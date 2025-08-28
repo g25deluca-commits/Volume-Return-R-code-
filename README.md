@@ -1,2 +1,2 @@
-This file contains the commands to estimate in R the relationship between returns and volumes of the cryptocurrency Litecoin obsefved in the period from January 1, 2018 to April 30, 2025. 
+This file contains the commands to estimate in R the relationship between returns and volumes of the cryptocurrency Litecoin obsefved in the period from January 1, 2018 to April 30, 2025. The relationship is described using a mixture copula with two components: the Joe copula and the 90-degrees rotated Joe copula.
 The estimated models have been identified for this specific cryptocurrency and for this specific period.
